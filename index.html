@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>多頁式網站-首頁</title>
+    <link rel="icon" href="https://www.hexschool.com/favicon.ico">
+    <meta name="description" content="Final Project_HTML & CSS website">
+    <meta name="keywords" content="HTML, CSS, Final Project">
+
+    <meta property="og:title" content="Final Project_HTML & CSS website" />
+    <meta property="og:description" content="Final Project_HTML & CSS website By Sinya">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="網址" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href=  
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <h1><a href="#">Hex School</a></h1>
+            <ul>
+                <li><a href="index.html">首頁</a></li>
+                <li><a href="course.html">課程</a></li>
+                <li><a href="faq.html">問答</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="index-banner">
+                <h2>歡迎來到<span>六角學院</span><br>帶你一起攻略前端程式</h2>
+                <div class="setupBtn">
+                    <input type="button" value="馬上去註冊">
+                    <i class="fa fa-arrow-right fa-lg" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="courseInfo">
+                <div class="courseInfo-title">
+                    <div class="courseInfo-title-text">
+                        <h3>精選課程</h3>
+                        <p>幫助你拿到前端工程師的門票</p>
+                    </div>
+                    <input type="button" value="更多課程">
+                </div>
+                <ul class="courseInfo-items">
+                    <li>
+                        <div class="courseInfo-items-img">
+                            <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/html5.png" alt="">
+                         </div>
+                        <h4>HTML5 基礎教學</h4>
+                        <span>主流前端網站設計的基礎，透過實際的範例，瞭解正確的網站開發流程。</span>
+                    </li>
+                    <li>
+                        <div class="courseInfo-items-img">
+                            <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/rwd.png" alt="">
+                        </div>
+                        <h4>響應式網站設計</h4>
+                        <span>六角學院提供業界響應式開發方法，讓學生瞭解完善的行動版開發觀念。</span>
+                    </li>
+                    <li>
+                        <div class="courseInfo-items-img">
+                            <img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/jQuery.png" alt="">
+                        </div>
+                        <h4>jQuery 實戰教學</h4>
+                        <span>分為四大主題：變數的使用、操作DOM、基本數學運算和套件運用。</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="difference">
+                <div class="difference-title-text">
+                    <h3>課程比較</h3>
+                    <p>線上課程與實體課程的差異</p>
+                </div>
+                <table class="difference-items">
+                    <tr>
+                        <th>項目</th>
+                        <th>六角學院 線上課程</th>
+                        <th>一般線上課程</th>
+                        <th>一般實體課程</th>
+                    </tr>
+                    <tr>
+                        <td>費用</td>
+                        <td class="perfect">較低</td>
+                        <td class="perfect">較低</td>
+                        <td>較高</td>
+                      </tr>
+                      <tr>
+                        <td>學習效果</td>
+                        <td>一般</td>
+                        <td>較低</td>
+                        <td class="perfect">很好</td>
+                      </tr>
+                      <tr>
+                        <td>Code review</td>
+                        <td class="perfect">有</td>
+                        <td>無</td>
+                        <td>不一定</td>
+                      </tr>
+                      <tr>
+                        <td>課程更新速度</td>
+                        <td class="perfect">普通</td>
+                        <td class="perfect">普通</td>
+                        <td>較慢</td>
+                      </tr>
+                      <tr>
+                        <td>多次複習</td>
+                        <td class="perfect">可</td>
+                        <td class="perfect">可</td>
+                        <td>不可</td>
+                      </tr>
+                      <tr>
+                        <td>字幕</td>
+                        <td class="perfect">有</td>
+                        <td>不一定</td>
+                        <td>板書</td>
+                      </tr>
+                </table>
+            </div>
+        </div>
+        <form class="connection" action="#">
+            <h4>你就是六角的下一個學生!<br>快留下資料讓我們認識你吧</h4>
+            <div class="connection-items">
+                <input type="text" placeholder="你的名字是?" name="Name">
+                <input type="text" placeholder="example@mail.com" name="email">
+                <input type="submit" value="送出" class="submitBtn">
+            </div>
+        </form>
+        <div class="footer">
+            <h2><a href="#">Hex School</a></h2>
+            <ul>
+                <li><a href="#"><img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/fb.png" alt="fb"></a></li>
+                <li><a href="#"><img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/tw.png" alt="twitter"></a></li>
+                <li><a href="#"><img src="https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/ig.png" alt="ig"></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
